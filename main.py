@@ -13,7 +13,7 @@ if eingabe1.lower().startswith("play"):
     ytdownloader.playlist(url)
 if eingabe1.lower().startswith("vid"):
     video_list = []
-    print("Gib URL(s) ein (end to end)")
+    print("Gib URL(s) ein ("End" oder "Stop" zum Stoppen)")
     while True:
         url = input("")
         if url.lower().startswith("stop") or url.lower().startswith("end"):
